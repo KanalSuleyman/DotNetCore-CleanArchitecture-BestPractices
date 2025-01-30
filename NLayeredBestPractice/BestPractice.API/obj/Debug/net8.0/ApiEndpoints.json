@@ -1,0 +1,223 @@
+[
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntitiesController",
+    "Method": "GetAll",
+    "RelativePath": "api/SampleEntities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntitiesController",
+    "Method": "Create",
+    "RelativePath": "api/SampleEntities",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BestPractice.Service.SampleEntities.Create.CreateSampleEntityRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntitiesController",
+    "Method": "GetById",
+    "RelativePath": "api/SampleEntities/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntitiesController",
+    "Method": "Update",
+    "RelativePath": "api/SampleEntities/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "BestPractice.Service.SampleEntities.Update.UpdateSampleEntityRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntitiesController",
+    "Method": "Delete",
+    "RelativePath": "api/SampleEntities/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntitiesController",
+    "Method": "GetPagedAll",
+    "RelativePath": "api/SampleEntities/{pageNumber}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntitiesController",
+    "Method": "UpdateAmount",
+    "RelativePath": "api/SampleEntities/amount",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BestPractice.Service.SampleEntities.UpdateAmount.UpdateSampleEntityAmountRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntityCategoriesController",
+    "Method": "GetSampleEntityCategories",
+    "RelativePath": "api/SampleEntityCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntityCategoriesController",
+    "Method": "CreateSampleEntityCategory",
+    "RelativePath": "api/SampleEntityCategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BestPractice.Service.SampleEntityCategories.Create.CreateSampleEntityCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntityCategoriesController",
+    "Method": "GetSampleEntityCategory",
+    "RelativePath": "api/SampleEntityCategories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntityCategoriesController",
+    "Method": "UpdateSampleEntityCategory",
+    "RelativePath": "api/SampleEntityCategories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "BestPractice.Service.SampleEntityCategories.Update.UpdateSampleEntityCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntityCategoriesController",
+    "Method": "DeleteSampleEntityCategory",
+    "RelativePath": "api/SampleEntityCategories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntityCategoriesController",
+    "Method": "GetSampleEntityCategoryWithSampleEntities",
+    "RelativePath": "api/SampleEntityCategories/{id}/sample-entities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestPractice.API.Controllers.SampleEntityCategoriesController",
+    "Method": "GetSampleEntityCategoryWithSampleEntities",
+    "RelativePath": "api/SampleEntityCategories/sample-entities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

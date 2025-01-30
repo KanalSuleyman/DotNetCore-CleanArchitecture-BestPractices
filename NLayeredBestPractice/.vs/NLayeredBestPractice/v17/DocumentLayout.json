@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|c:\\users\\suley\\source\\repos\\nlayeredbestpractice\\bestpractice.api\\bestpractice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|solutionrelative:bestpractice.api\\bestpractice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC226DD-6ADF-424C-A94F-97733F171381}|BestPractice.Service\\BestPractice.Service.csproj|c:\\users\\suley\\source\\repos\\nlayeredbestpractice\\bestpractice.service\\sampleentitycategories\\isampleentitycategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC226DD-6ADF-424C-A94F-97733F171381}|BestPractice.Service\\BestPractice.Service.csproj|solutionrelative:bestpractice.service\\sampleentitycategories\\isampleentitycategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC226DD-6ADF-424C-A94F-97733F171381}|BestPractice.Service\\BestPractice.Service.csproj|c:\\users\\suley\\source\\repos\\nlayeredbestpractice\\bestpractice.service\\sampleentitycategories\\sampleentitycategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC226DD-6ADF-424C-A94F-97733F171381}|BestPractice.Service\\BestPractice.Service.csproj|solutionrelative:bestpractice.service\\sampleentitycategories\\sampleentitycategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 47,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BestPractice.API.http",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\BestPractice.API.http",
+              "RelativeDocumentMoniker": "BestPractice.API\\BestPractice.API.http",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\BestPractice.API.http",
+              "RelativeToolTip": "BestPractice.API\\BestPractice.API.http",
+              "ViewState": "AgIAAEQAAAAAAAAAAAA9wE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-30T11:35:18.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISampleEntityCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.Service\\SampleEntityCategories\\ISampleEntityCategoryService.cs",
+              "RelativeDocumentMoniker": "BestPractice.Service\\SampleEntityCategories\\ISampleEntityCategoryService.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.Service\\SampleEntityCategories\\ISampleEntityCategoryService.cs",
+              "RelativeToolTip": "BestPractice.Service\\SampleEntityCategories\\ISampleEntityCategoryService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T10:28:41.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SampleEntityCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.Service\\SampleEntityCategories\\SampleEntityCategoryService.cs",
+              "RelativeDocumentMoniker": "BestPractice.Service\\SampleEntityCategories\\SampleEntityCategoryService.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.Service\\SampleEntityCategories\\SampleEntityCategoryService.cs",
+              "RelativeToolTip": "BestPractice.Service\\SampleEntityCategories\\SampleEntityCategoryService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T10:28:34.378Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\bin\Debug\net8.0\BestPractice.Service.deps.json
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\bin\Debug\net8.0\BestPractice.Service.dll
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\bin\Debug\net8.0\BestPractice.Service.pdb
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\bin\Debug\net8.0\BestPractice.Repository.dll
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\bin\Debug\net8.0\BestPractice.Repository.pdb
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\BestPractice.Service.csproj.AssemblyReference.cache
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\BestPractice.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\BestPractice.Service.AssemblyInfoInputs.cache
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\BestPractice.Service.AssemblyInfo.cs
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\BestPractice.Service.csproj.CoreCompileInputs.cache
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\BestPrac.856B6C15.Up2Date
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\BestPractice.Service.dll
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\refint\BestPractice.Service.dll
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\BestPractice.Service.pdb
+C:\Users\suley\source\repos\NLayeredBestPractice\BestPractice.Service\obj\Debug\net8.0\ref\BestPractice.Service.dll

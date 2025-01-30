@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|c:\\users\\suley\\source\\repos\\nlayeredbestpractice\\bestpractice.api\\bestpractice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|solutionrelative:bestpractice.api\\bestpractice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|c:\\users\\suley\\source\\repos\\nlayeredbestpractice\\bestpractice.api\\controllers\\sampleentitycategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|solutionrelative:bestpractice.api\\controllers\\sampleentitycategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|c:\\users\\suley\\source\\repos\\nlayeredbestpractice\\bestpractice.api\\controllers\\sampleentitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|solutionrelative:bestpractice.api\\controllers\\sampleentitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|c:\\users\\suley\\source\\repos\\nlayeredbestpractice\\bestpractice.api\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|solutionrelative:bestpractice.api\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|c:\\users\\suley\\source\\repos\\nlayeredbestpractice\\bestpractice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BA6294-AA7E-4EAD-9607-77B3665FB604}|BestPractice.API\\BestPractice.API.csproj|solutionrelative:bestpractice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 47,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BestPractice.API.http",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\BestPractice.API.http",
+              "RelativeDocumentMoniker": "BestPractice.API\\BestPractice.API.http",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\BestPractice.API.http",
+              "RelativeToolTip": "BestPractice.API\\BestPractice.API.http",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-30T00:42:32.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SampleEntityCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\Controllers\\SampleEntityCategoriesController.cs",
+              "RelativeDocumentMoniker": "BestPractice.API\\Controllers\\SampleEntityCategoriesController.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\Controllers\\SampleEntityCategoriesController.cs",
+              "RelativeToolTip": "BestPractice.API\\Controllers\\SampleEntityCategoriesController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwEYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T00:32:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SampleEntitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\Controllers\\SampleEntitiesController.cs",
+              "RelativeDocumentMoniker": "BestPractice.API\\Controllers\\SampleEntitiesController.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\Controllers\\SampleEntitiesController.cs",
+              "RelativeToolTip": "BestPractice.API\\Controllers\\SampleEntitiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T00:31:14.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomBaseController.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\Controllers\\CustomBaseController.cs",
+              "RelativeDocumentMoniker": "BestPractice.API\\Controllers\\CustomBaseController.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\Controllers\\CustomBaseController.cs",
+              "RelativeToolTip": "BestPractice.API\\Controllers\\CustomBaseController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T00:30:45.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\Program.cs",
+              "RelativeDocumentMoniker": "BestPractice.API\\Program.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\NLayeredBestPractice\\BestPractice.API\\Program.cs",
+              "RelativeToolTip": "BestPractice.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T00:28:44.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
