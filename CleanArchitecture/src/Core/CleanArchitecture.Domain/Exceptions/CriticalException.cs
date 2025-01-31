@@ -1,4 +1,4 @@
-﻿namespace BestPractice.Service.ExceptionHandlers;
+﻿namespace CleanArchitecture.Domain.Exceptions;
 
 /// <summary>
 /// Represents a critical exception that indicates a severe or unexpected error in the application.
