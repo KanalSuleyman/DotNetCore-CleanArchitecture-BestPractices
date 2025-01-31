@@ -9,12 +9,6 @@ namespace CleanArchitecture.Application.Contracts.Persistence;
 /// <typeparam name="TId">The type of the entity's identifier, which must be a value type.</typeparam>
 public interface IGenericRepository<T, in TId> where T : class where TId : struct
 {
-    /// <summary>
-    /// Retrieves all entities from the repository as a queryable collection.
-    /// </summary>
-    /// <returns>An <see cref="IQueryable{T}"/> representing the collection of entities.</returns>
-    IQueryable<T> GetAll();
-
     Task<List<T>> GetAllAsync();
 
     Task<List<T>> GetAllPagedAsync(int pageNumber, int pageSize);
