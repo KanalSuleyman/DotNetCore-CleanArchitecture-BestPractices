@@ -19,5 +19,5 @@ public interface ISampleEntityCategoryRepository : IGenericRepository<SampleEnti
     /// Retrieves a queryable collection of <see cref="SampleEntityCategory"/> entities, including their associated <see cref="IQueryable{T}"/> entities.
     /// </summary>
     /// <returns>An <see cref="SampleEntity"/> representing the collection of categories with their associated entities.</returns>
-    Task<List<SampleEntityCategory?>> GetSampleEntityCategoryWithSampleEntities();
+    Task<List<SampleEntityCategory>> GetSampleEntityCategoryWithSampleEntities();
 }
