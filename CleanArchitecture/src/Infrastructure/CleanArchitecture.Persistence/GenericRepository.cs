@@ -9,7 +9,7 @@ namespace CleanArchitecture.Persistence;
 /// Implements the <see cref="IGenericRepository{T,TId}"/> interface to provide generic CRUD operations
 /// for entities of type <typeparamref name="TId"/> with an identifier of type <typeparamref name="T"/>.
 /// </summary>
-/// <typeparam name="TId">The type of entity managed by the repository. Must inherit from <see cref="context"/>.</typeparam>
+/// <typeparam name="T">The type of entity managed by the repository. Must inherit from <see cref="context"/>.</typeparam>
 /// <typeparam name="TId">The type of the entity's identifier, which must be a value type.</typeparam>
 /// <param name="context">The database context used to perform operations.</param>
 public class GenericRepository<T, TId>(BestPracticeDbContext context) : IGenericRepository<T, TId> where T : BaseEntity<TId> where TId : struct
@@ -24,11 +24,21 @@ public class GenericRepository<T, TId>(BestPracticeDbContext context) : IGeneric
     /// </summary>
     private readonly DbSet<T> _dbSet = context.Set<T>();
 
+    /// <summary>
+    /// Retrieves all entities asynchronously.
+    /// </summary>
+    /// <returns>A task representing the asynchronous operation. The task result contains a list of all entities.</returns>
     public async Task<List<T>> GetAllAsync()
     {
         return await _dbSet.ToListAsync();
     }
 
+    /// <summary>
+    /// Retrieves a paginated list of entities asynchronously.
+    /// </summary>
+    /// <param name="pageNumber">The page number to retrieve.</param>
+    /// <param name="pageSize">The number of entities per page.</param>
+    /// <returns>A task representing the asynchronous operation. The task result contains a list of entities for the specified page.</returns>
     public async Task<List<T>> GetAllPagedAsync(int pageNumber, int pageSize)
     {
         return await _dbSet.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
@@ -41,6 +51,11 @@ public class GenericRepository<T, TId>(BestPracticeDbContext context) : IGeneric
     /// <returns>A task representing the asynchronous operation. The task result is <c>true</c> if the entity exists; otherwise, <c>false</c>.</returns>
     public Task<bool> AnyAsync(TId id) => _dbSet.AnyAsync(e => e.Id.Equals(id));
 
+    /// <summary>
+    /// Checks asynchronously if any entities match the specified predicate.
+    /// </summary>
+    /// <param name="predicate">A function to test each entity for a condition.</param>
+    /// <returns>A task representing the asynchronous operation. The task result is <c>true</c> if any entities match the predicate; otherwise, <c>false</c>.</returns>
     public async Task<bool> AnyAsync(Expression<Func<T, bool>> predicate)
     {
         return await _dbSet.AnyAsync(predicate);
