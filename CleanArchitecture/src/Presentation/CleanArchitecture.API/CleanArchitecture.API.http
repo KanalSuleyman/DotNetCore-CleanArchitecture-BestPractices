@@ -1,6 +1,90 @@
-@CleanArchitecture.API_HostAddress = http://localhost:5133
+@BestPractice.API_HostAddress = https://localhost:7003
 
-GET {{CleanArchitecture.API_HostAddress}}/weatherforecast/
+### Get All SampleEntities
+GET {{BestPractice.API_HostAddress}}/api/SampleEntities
 Accept: application/json
 
-###
+### Get Paged SampleEntities
+GET {{BestPractice.API_HostAddress}}/api/SampleEntities/1/10
+Accept: application/json
+
+### Get SampleEntity by ID
+GET {{BestPractice.API_HostAddress}}/api/SampleEntities/1
+Accept: application/json
+
+### Create a new SampleEntity
+POST {{BestPractice.API_HostAddress}}/api/SampleEntities
+Content-Type: application/json
+
+{
+    "name": "Sample Entity 1",
+    "amount": 1,
+    "description": "This is a sample entity description.",
+    "sampleEntityCategoryId": 1
+}
+
+### Update an existing SampleEntity
+PUT {{BestPractice.API_HostAddress}}/api/SampleEntities/1
+Content-Type: application/json
+
+{
+    "name": "Updated Sample Entity",
+    "amount": 10.0,
+    "description": "This is an updated description.",
+    "sampleEntityCategoryId": 1
+}
+
+### Update the Amount of a SampleEntity
+PATCH {{BestPractice.API_HostAddress}}/api/SampleEntities/amount
+Content-Type: application/json
+
+{
+    "id": 1,
+    "amount": 15.0
+}
+
+### Delete a SampleEntity
+DELETE {{BestPractice.API_HostAddress}}/api/SampleEntities/30
+Accept: application/json
+
+
+
+
+
+### API Tests for SampleEntityCategoriesController
+
+### Get All SampleEntityCategories
+GET {{BestPractice.API_HostAddress}}/api/SampleEntityCategories
+Accept: application/json
+
+### Get SampleEntityCategory by ID
+GET {{BestPractice.API_HostAddress}}/api/SampleEntityCategories/1
+Accept: application/json
+
+### Get SampleEntityCategory with SampleEntities by ID
+GET {{BestPractice.API_HostAddress}}/api/SampleEntityCategories/1/sample-entities
+Accept: application/json
+
+### Get All SampleEntityCategories with SampleEntities
+GET {{BestPractice.API_HostAddress}}/api/SampleEntityCategories/sample-entities
+Accept: application/json
+
+### Create a new SampleEntityCategory
+POST {{BestPractice.API_HostAddress}}/api/SampleEntityCategories
+Content-Type: application/json
+
+{
+    "name": "Sample Category 1"
+}
+
+### Update an existing SampleEntityCategory
+PUT {{BestPractice.API_HostAddress}}/api/SampleEntityCategories/1
+Content-Type: application/json
+
+{
+    "name": "Updated Sample Category"
+}
+
+### Delete a SampleEntityCategory
+DELETE {{BestPractice.API_HostAddress}}/api/SampleEntityCategories/1
+Accept: application/json
