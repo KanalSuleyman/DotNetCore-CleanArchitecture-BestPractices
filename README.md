@@ -1,39 +1,70 @@
-# .NET Core Clean Architecture Best Practices
+Based on the images of your project structure, here's a professional README for your .NET Core project using Clean Architecture and N-layered best practices:
 
-**Status:** Ongoing Reference | **Tech Stack:** .NET Core, EF Core, Clean Architecture
+---
 
-This repository serves as a reference implementation of Clean Architecture principles, best coding practices, and maintainable project structure in a .NET Core environment. It demonstrates how to organize code, maintain separation of concerns, and write testable, scalable, and easily maintainable applications.
+# .NET Core Clean Architecture - N-Layered Best Practices
 
-## Purpose
+This project implements **Clean Architecture** principles in a .NET Core application, following **N-Layered** design best practices. The structure ensures a high level of separation of concerns, maintainability, scalability, and testability for future extensions.
 
-The goal of this project is to provide developers with a template or example that:
-- **Follows Clean Architecture:** Ensures a clear separation between domain, application logic, and infrastructure concerns.
-- **Implements Best Practices:** Adheres to coding standards, SOLID principles, and efficient testing strategies.
-- **Is Highly Scalable and Maintainable:** Facilitates adding new features or changing infrastructure components with minimal friction.
+## Table of Contents
+1. [Project Structure](#project-structure)
+2. [Technologies Used](#technologies-used)
+3. [Design Principles](#design-principles)
+4. [Features](#features)
 
-## Architecture & Project Structure
+## Project Structure
 
-The project is organized into separate layers, each with its own responsibility:
+The solution is divided into several layers that align with Clean Architecture:
 
-/src |-- Domain | |-- Entities | |-- ValueObjects | |-- DomainEvents | -- Exceptions | |-- Application | |-- Common (Behaviors, Interfaces, Mappings) | |-- Features (Commands, Queries, DTOs) | -- Services | |-- Infrastructure | |-- Persistence (EF Core DbContext, Migrations) | |-- Repositories | |-- ExternalIntegrations | -- Logging | |-- WebAPI (Presentation) | |-- Controllers | |-- Filters | |-- Middlewares | -- Models | /tests |-- DomainTests |-- ApplicationTests |-- InfrastructureTests `-- WebAPITests
+1. **Domain**:
+    - Contains the core business logic and domain entities.
+    - No dependencies on other layers.
+    - Examples:
+      - `SampleEntity`, `SampleEntityCategory`
+      - `CriticalException`, `ConnectionStringOption`
 
-### Principles Employed
-- **Dependency Inversion:** Inner layers depend only on abstractions, not on external frameworks or implementations.
-- **Separation of Concerns:** Each layer handles a well-defined responsibility.
-- **CQRS (Command and Query Responsibility Segregation):** Commands and Queries are separated for clarity and maintainability.
-- **Testability:** By structuring the code into clear layers, each can be tested independently.
+2. **Application**:
+    - Contains application logic like use cases, services, and contract definitions.
+    - It holds the interfaces for the repository and service layers.
+    - Examples:
+      - `ICacheService`, `ISampleEntityRepository`, `IUnitOfWork`
+      - `SampleEntityService`, `SampleEntityDto`
 
-## Getting Started
+3. **Infrastructure**:
+    - Implements repositories, data access, and external service integrations.
+    - Examples:
+      - `GenericRepository`, `SampleEntityRepository`
+      - `CacheService`, `UnitOfWork`
 
-### Prerequisites
-- **.NET 8 SDK** (or the current LTS version)
-- **SQL Server or PostgreSQL** (or adapt EF Core settings for your chosen DB)
-- **Git** for version control
+4. **Presentation (API)**:
+    - Exposes APIs and handles HTTP requests.
+    - It includes controllers, filters, and middleware to interact with the application layer.
+    - Examples:
+      - `SampleEntitiesController`, `GlobalExceptionHandler`
+      - `CachingExtensions`, `SwaggerExtensions`
 
-Contributing
-This is a reference project. Contributions that enhance examples, add comments, or improve clarity are welcome.
+5. **Core**:
+    - Contains shared code used across layers.
+    - Defines essential contracts like DTOs and request/response models.
 
-Fork this repo
-Create a feature branch (git checkout -b feature/improve-docs)
-Commit and push your changes (git commit -m "docs: improve mapping section" and git push)
-Open a Pull Request describing your improvements
+## Technologies Used
+- **.NET Core 8**
+- **Entity Framework Core** (for data access)
+- **FluentValidation** (for model validation)
+- **AutoMapper** (for object-to-object mapping)
+- **Swagger/OpenAPI** (for API documentation)
+- **Memory Caching** (for performance optimization)
+
+## Design Principles
+
+### Clean Architecture
+- **Separation of Concerns**: Each layer focuses on a single responsibility.
+- **Dependency Inversion**: Inner layers (Domain) do not depend on outer layers.
+- **Testability**: The architecture allows for easier unit and integration testing.
+
+## Features
+- **CRUD Operations**: Full set of CRUD operations for `SampleEntity` and `SampleEntityCategory`.
+- **Caching**: Integrated caching for optimized data retrieval.
+- **Global Exception Handling**: Comprehensive error handling and logging system.
+- **Fluent Validation**: Model validation with custom rules.
+- **Swagger Documentation**: Auto-generated documentation with OpenAPI for the RESTful API.
