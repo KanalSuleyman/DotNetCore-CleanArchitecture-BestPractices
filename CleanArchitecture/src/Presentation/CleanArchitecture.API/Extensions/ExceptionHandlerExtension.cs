@@ -1,6 +1,15 @@
-﻿namespace CleanArchitecture.API.Extensions
+﻿using CleanArchitecture.API.ExceptionHandlers;
+using Microsoft.AspNetCore.Diagnostics;
+
+namespace CleanArchitecture.API.Extensions
 {
-    public class ExceptionHandlerExtension
+    public static class ExceptionHandlerExtension
     {
+        public static IServiceCollection AddExceptionHandlerExtension(this IServiceCollection services)
+        {
+            services.AddExceptionHandler<CriticalExceptionHandler>();
+            services.AddExceptionHandler<GlobalExceptionHandler>();
+            return services;
+        }
     }
 }

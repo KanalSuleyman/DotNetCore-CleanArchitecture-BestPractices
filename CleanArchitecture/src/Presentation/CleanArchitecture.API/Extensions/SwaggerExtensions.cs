@@ -1,12 +1,9 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace CleanArchitecture.Application.Extensions
+﻿namespace CleanArchitecture.API.Extensions
 {
     public static class SwaggerExtensions
     {
         
-        public static IServiceCollection AddSwaggerGenExt(this IServiceCollection services)
+        public static IServiceCollection AddSwaggerGenExtension(this IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
             {
@@ -16,7 +13,7 @@ namespace CleanArchitecture.Application.Extensions
             return services;
         }
 
-        public static IServiceCollection UseSwaggerExt(this IApplicationBuilder app)
+        public static IApplicationBuilder UseSwaggerExtension(this IApplicationBuilder app)
         {
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CleanArchitecture.API V1"));
