@@ -1,7 +1,3 @@
-Based on the images of your project structure, here's a professional README for your .NET Core project using Clean Architecture and N-layered best practices:
-
----
-
 # .NET Core Clean Architecture - N-Layered Best Practices
 
 This project implements **Clean Architecture** principles in a .NET Core application, following **N-Layered** design best practices. The structure ensures a high level of separation of concerns, maintainability, scalability, and testability for future extensions.
